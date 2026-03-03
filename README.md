@@ -1,16 +1,14 @@
-# template-fastapi
+#
+MCP Server for M365 Tasks and calendar (할일 + 일정)
+
+## template-fastapi
 
 ```aschii
-fastapi/
-  app/
-    main.py
-  Dockerfile
-  chart/
-    Chart.yaml
-    values.yaml
-    templates/
-      deployment.yaml
-      service.yaml
-  requirements.txt
-  .github/workflows/ci.yml
+mcp-todo
+├── src
+│    └── main.py
+├── helm
+└── DockerFile
 ```
+
+### 
